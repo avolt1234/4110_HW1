@@ -59,9 +59,7 @@ Don't forget to save your drawing to show all of your friends! To save as a .png
 - Bitmap.CompressFormat.PNG = Compresses the bitmap into a .png format
 - 100 = Quality of the image
 - fOut = filestreamoutput derived from the new file path
-
 <img align="left" src="ScreenShots/Screenshot_2018-09-18-16-46-18.png">
-
 ### Clear Button
 
 If a user wants to erase their drawing they can select the "CLEAR" button and it will erase whatever has been drawn on the screen. The clearing of the screen is done via a built in function in the DrawView library. When the button is selected, it calls the function <b>clearIt()</b> which erases the screen by calling <b>mDrawView.restartDrawing();</b>. 
