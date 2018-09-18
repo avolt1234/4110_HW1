@@ -70,6 +70,10 @@ Don't forget to save your drawing to show all of your friends! To save as a .png
 
 If a user wants to erase their drawing they can select the "CLEAR" button and it will erase whatever has been drawn on the screen. The clearing of the screen is done via a built in function in the DrawView library. When the button is selected, it calls the function <b>clearIt()</b> which erases the screen by calling <b>mDrawView.restartDrawing();</b>. 
 
+<br><br>
+<br><br>
+<br><br>
+<br><br>
 
 ### Dependencies
 
