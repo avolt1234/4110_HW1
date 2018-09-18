@@ -29,10 +29,11 @@ To change activities to drawing, selecting the "Scribbles" button will create <b
 
 Main3Activity is the second activity of the application that allows users to draw on the screen, change the color of the drawing, clear the drawing, and save the drawing. 
 
+<img align="left" src="ScreenShots/Screenshot_2018-09-18-16-45-01.png">
+<img align="left" src="ScreenShots/Screenshot_2018-09-18-16-45-44.png">
+
 The drawing canvas implements a pre-existing library from https://github.com/ByoxCode/DrawView which allows users to draw on the screen. The screen is portioned off so that approximately 3/4 of the screen can be drawn on, the rest of the screen contains the buttons for manipulating the draw view. Instructions on how to include the library will be included below.
 
-<img src="ScreenShots/Screenshot_2018-09-18-16-45-01.png" align="left">
-<img src="ScreenShots/Screenshot_2018-09-18-16-45-44.png" align="center">
 
 ### Color Button
 
@@ -43,7 +44,6 @@ When a user presses the "COLOR" button, <b>OpenColorPicker(boolean)</b> is calle
 
 ### Save Button
 Don't forget to save your drawing to show all of your friends! To save as a .png image simply select the "SAVE" button. When the "SAVE" button is selected, it converts the drawview into a bitmap and saves that into an Object List. A filename is then created and passed into a fileoutputstream. The bitmap is then saved using bmp.compress(Bitmap.CompressFormat.PNG, 100, fOut);. If the file save was successful, a message box will populate "File Saved" at the bottom of the screen.
-
 
 
 #### Variables from saving
