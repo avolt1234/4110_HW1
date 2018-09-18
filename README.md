@@ -41,11 +41,10 @@ The drawing canvas implements a pre-existing library from https://github.com/Byo
 <br><br>
 <br><br>
 
-
-### Color Button
-
 <img align="left" src="ScreenShots/Screenshot_2018-09-18-16-45-53.png">
 <img align="left" src="ScreenShots/Screenshot_2018-09-18-16-46-04.png">
+
+### Color Button
 
 When a user presses the "COLOR" button, <b>OpenColorPicker(boolean)</b> is called. The color picker was utilized from another github library https://github.com/yukuku/ambilwarna, the library allows users to pick a color from a color palette. When the user selects the "OK" button on the color pallete, the variable DefaultColor is set to the color that the user has chosen. That DefaultColor is then set as the draw color via <b>mDrawView.setDrawColor(color)</b>. This color will be displayed when the user draws on the drawview.
 
