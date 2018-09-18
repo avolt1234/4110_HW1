@@ -38,8 +38,6 @@ The drawing canvas implements a pre-existing library from https://github.com/Byo
 
 <br><br>
 <br><br>
-<br><br>
-<br><br>
 
 <img align="left" src="ScreenShots/Screenshot_2018-09-18-16-45-53.png">
 <img align="left" src="ScreenShots/Screenshot_2018-09-18-16-46-04.png">
