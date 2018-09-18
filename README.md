@@ -50,7 +50,7 @@ When a user presses the "COLOR" button, <b>OpenColorPicker(boolean)</b> is calle
 
 <br><br>
 <br><br>
-<br><br>
+
 <img align="left" src="ScreenShots/Screenshot_2018-09-18-16-46-10.png">
 ### Save Button
 Don't forget to save your drawing to show all of your friends! To save as a .png image simply select the "SAVE" button. When the "SAVE" button is selected, it converts the drawview into a bitmap and saves that into an Object List. A filename is then created and passed into a fileoutputstream. The bitmap is then saved using bmp.compress(Bitmap.CompressFormat.PNG, 100, fOut);. If the file save was successful, a message box will populate "File Saved" at the bottom of the screen.
