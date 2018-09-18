@@ -48,7 +48,10 @@ The drawing canvas implements a pre-existing library from https://github.com/Byo
 
 When a user presses the "COLOR" button, <b>OpenColorPicker(boolean)</b> is called. The color picker was utilized from another github library https://github.com/yukuku/ambilwarna, the library allows users to pick a color from a color palette. When the user selects the "OK" button on the color pallete, the variable DefaultColor is set to the color that the user has chosen. That DefaultColor is then set as the draw color via <b>mDrawView.setDrawColor(color)</b>. This color will be displayed when the user draws on the drawview.
 
-
+<br><br>
+<br><br>
+<br><br>
+<img align="left" src="ScreenShots/Screenshot_2018-09-18-16-46-10.png">
 ### Save Button
 Don't forget to save your drawing to show all of your friends! To save as a .png image simply select the "SAVE" button. When the "SAVE" button is selected, it converts the drawview into a bitmap and saves that into an Object List. A filename is then created and passed into a fileoutputstream. The bitmap is then saved using bmp.compress(Bitmap.CompressFormat.PNG, 100, fOut);. If the file save was successful, a message box will populate "File Saved" at the bottom of the screen.
 
@@ -59,7 +62,6 @@ Don't forget to save your drawing to show all of your friends! To save as a .png
 - 100 = Quality of the image
 - fOut = filestreamoutput derived from the new file path
 
-![](ScreenShots/Screenshot_2018-09-18-16-46-10.png)
 
 ### Clear Button
 
