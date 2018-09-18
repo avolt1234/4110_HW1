@@ -60,8 +60,6 @@ Don't forget to save your drawing to show all of your friends! To save as a .png
 - 100 = Quality of the image
 - fOut = filestreamoutput derived from the new file path
 
-<br><br>
-
 <img align="left" src="ScreenShots/Screenshot_2018-09-18-16-46-18.png">
 
 ### Clear Button
