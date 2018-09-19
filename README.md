@@ -83,6 +83,11 @@ implementation 'com.github.yukuku:ambilwarna:2.0.1'
 }
 ```
 
+### Resources
+
+- DrawView Library https://github.com/ByoxCode/DrawView
+- Color Picker Library https://github.com/yukuku/ambilwarna
+
 ### Software Design
 
 I utilized buttons to traverse between the 2 activities because, well, I tried the tab view but kept getting hung up when it came to the DrawView library and how to implement that with tabs. However, upon pressing the buttons to traverse, a new instance is created for the new activity to be loaded. Once the activity is created then that activity is started, the screen will then display the new activity. The logic of the 2 activities were designed by utilizing object orientated design, each button press individually activates a different method, thus affecting the application differently. I tried to simplify most methods, making the button press process streamlined with minimal hopping around from method to method. Additionally, the 2 activities do not share any common variables or methods, this was in an effort to keep the 2 activities in their own area, essentially encapsulating all variables and methods in each activity.
